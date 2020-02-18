@@ -145,4 +145,3 @@ Signed-off-by: Georgi Djakov <georgi.djakov@linaro.org>
  static inline int dev_pm_opp_enable(struct device *dev, unsigned long freq)
  {
  	return 0;
-

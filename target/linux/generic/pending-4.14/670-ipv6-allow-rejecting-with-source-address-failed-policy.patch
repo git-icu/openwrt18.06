@@ -252,3 +252,4 @@ Signed-off-by: Jonas Gorski <jogo@openwrt.org>
 +		in6_dev_get(init_net.loopback_dev);
    #endif
  }
+ 

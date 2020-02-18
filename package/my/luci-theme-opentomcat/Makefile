@@ -10,9 +10,9 @@ THEME_NAME:=opentomcat
 THEME_TITLE:=opentomcat
 
 PKG_NAME:=luci-theme-$(THEME_NAME)
-PKG_VERSION:=1.36
+PKG_VERSION:=0.2.50
 
-PKG_RELEASE:=8
+PKG_RELEASE:=1
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -21,7 +21,7 @@ define Package/luci-theme-$(THEME_NAME)
   CATEGORY:=LuCI
   SUBMENU:=4. Themes
   DEPENDS:=+libc
-  TITLE:=Open Tom Cat  Theme
+  TITLE:=Advanced Tomato Material
   URL:=http://wcan.in/
   PKGARCH:=all
 endef

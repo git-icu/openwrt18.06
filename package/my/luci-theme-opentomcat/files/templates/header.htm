@@ -5,7 +5,7 @@
 	Copyright 2015-2017 Lutty Yang <lutty@wcan.in>
 
 	Have a bug? Please create an issue here on GitHub!
-	https://github.com/Ameykyl/luci-theme-opentomcat
+	https://github.com/LuttyYang/luci-theme-opentomcat/issues
 
 	luci-theme-bootstrap:
 	Copyright 2008 Steven Barth <steven@midlink.org>
@@ -215,6 +215,7 @@
 		<style title="text/css"><%= css %></style>
 	<% end -%>
 	<script src="<%=resource%>/xhr.js"></script>
+        <script src="<%=media%>/js/jquery.min.js"></script>
 </head>
 <body class="lang_<%=luci.i18n.context.lang%> <%- if node then %><%= striptags( node.title ) %><%- end %> <% if luci.dispatcher.context.authsession then %>logged-in<% end %>">
 <header>

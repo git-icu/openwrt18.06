@@ -41,3 +41,4 @@ Signed-off-by: Felix Fietkau <nbd@nbd.name>
 +	 $(if $(KBUILD_MODULES),$(obj-m)) \
  	 $(subdir-ym) $(always)
  	@:
+ 

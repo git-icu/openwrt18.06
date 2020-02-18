@@ -1,2 +1,2 @@
-# luci-theme-opentomcat
-Advanced tomcat Material Theme for OpenWrt
+# luci-theme-atmaterial
+Advanced Tomato Material Theme for OpenWrt

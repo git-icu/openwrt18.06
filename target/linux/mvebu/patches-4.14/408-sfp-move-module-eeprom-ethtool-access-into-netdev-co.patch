@@ -178,3 +178,4 @@ Signed-off-by: Russell King <rmk+kernel@armlinux.org.uk>
 +
  	if (phydev && phydev->drv && phydev->drv->module_eeprom)
  		return phydev->drv->module_eeprom(phydev, ee, data);
+ 

@@ -5,7 +5,7 @@
  *      Copyright 2015 Lutty Yang <lutty@wcan.in>
  *
  *  Have a bug? Please create an issue here on GitHub!
- *     https://github.com/Ameykyl/luci-theme-opentomcat
+ *      https://github.com/LuttyYang/luci-theme-opentomcat/issues
  *
  *  luci-theme-bootstrap:
  *      Copyright 2008 Steven Barth <steven@midlink.org>
