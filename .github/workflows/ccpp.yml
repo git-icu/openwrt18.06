@@ -61,16 +61,13 @@ jobs:
            tar   xvJf  rclone.tar.xz
            tar   xvJf  luci-app-diskman.tar.xz
            tar   xvJf  parted.tar.xz
+           svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean  package/lean
            git clone  https://github.com/Flowers-in-thorns/luci-app-vssr-coexist
            git clone  https://github.com/Sweet-Fairy/openwrt-package
            git clone  https://github.com/vernesong/OpenClash
            git clone  https://github.com/Leo-Jo-My/luci-app-clash
            git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
            git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
-           cd ../..
-           cd package/lean
-           rm -rf luci-app-v2ray-server
-           git clone https://github.com/tszh4922/luci-app-v2ray-server.git
            cd ../..
            cd target/linux/x86/image
            chmod u+x  gen_image_efi.sh
